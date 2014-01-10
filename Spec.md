@@ -21,6 +21,8 @@ Other Keywords
 * yeah - always executed regardless of whether a trap was trapped
 
 Single line comments always start with an octothorpe (#)
+
 To access a method of a class, just use a space 
+
 for example:
 `we out "swag";`
