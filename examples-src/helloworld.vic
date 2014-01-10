@@ -3,6 +3,6 @@
 # Princeton Ferro
 
 dub style valx() {
-	we out "Hello world.";
+	we out "Hello, World!";
 	go soft;
 }
