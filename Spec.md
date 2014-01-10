@@ -12,8 +12,12 @@ Types
 Other Keywords
 * we - an interface to the system, with functions such as out (printing output) and in (reading input)
 * go - return a value from a function
- * to signify success, convention dictates you write `go hard!;`, even though `go soft;` will compile fine 
+  * to signify success, convention dictates you write `go hard!;`, even though `go soft;` will compile fine 
 * if, else, else if - conditional keywords
+* spin - loop with init, check, and update. syntax:
+  ```spin num i=0/i<10/i++ {
+    # will run 10 times
+  }```  
 * valx() - the first function called when running a VictorScript program; executables need to have this, libraries do not
 * yikes - a type for storing traps (thrown when errors occur)
 * try - attempt to do something
