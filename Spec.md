@@ -14,18 +14,14 @@ Other Keywords
 * go - return a value from a function
   * to signify success, convention dictates you write `go hard!;`, even though `go soft;` will compile fine 
 * if, else, else if - conditional keywords
-* spin - loop with init, check, and update. syntax:
-  ```
-  spin num i=0/i<10/i++ {
-    # will run 10 times
-  }```  
+* spin - loop with init, check, and update. syntax: `spin (num i=0/i<10/i++) { # will run 10 times # }`  
 * valx() - the first function called when running a VictorScript program; executables need to have this, libraries do not
 * yikes - a type for storing traps (thrown when errors occur)
 * try - attempt to do something
 * trap - jump to this block if we catch a trap
 * yeah - always executed regardless of whether a trap was trapped
 
-Single line comments always start with an octothorpe (#)
+Comments start and end with an octothorpe (#)
 
 Access methods or passing arguments use a space:
 
@@ -35,4 +31,7 @@ we out "swag";
 func arg;
 ```
 
-`we`, the system interface, contains a method `out` for printing out to the console and a method `in` for reading in from the console.
+`we` methods:
+* `we out` - print out to the console
+* `we in` - take in from the console
+* `we drop` - halt the program 
