@@ -22,7 +22,12 @@ Other Keywords
 
 Single line comments always start with an octothorpe (#)
 
-To access a method of a class, just use a space 
+Access methods or passing arguments use a space:
 
 for example:
-`we out "swag";`
+```
+we out "swag";
+func arg;
+```
+
+`we`, the system interface, contains a method `out` for printing out to the console and a method `in` for reading in from the console.
