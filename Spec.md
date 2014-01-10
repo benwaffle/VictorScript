@@ -35,3 +35,5 @@ func arg;
 * `we out` - print out to the console
 * `we in` - take in from the console
 * `we drop` - halt the program 
+
+you can use the `hmu` library for networking
