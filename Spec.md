@@ -15,7 +15,8 @@ Other Keywords
   * to signify success, convention dictates you write `go hard!;`, even though `go soft;` will compile fine 
 * if, else, else if - conditional keywords
 * spin - loop with init, check, and update. syntax:
-  ```spin num i=0/i<10/i++ {
+  ```
+  spin num i=0/i<10/i++ {
     # will run 10 times
   }```  
 * valx() - the first function called when running a VictorScript program; executables need to have this, libraries do not
